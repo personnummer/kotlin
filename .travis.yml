@@ -9,4 +9,4 @@ before_install:
   - chmod +x gradle/wrapper/gradle-wrapper.jar
 
 script:
-  - ./gradlew test build
+  - ./gradlew ktlintCheck test build
