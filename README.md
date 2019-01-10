@@ -1,7 +1,7 @@
 # Personnummer
 
 [![Build
-Status](https://travis-ci.com/personnummer/kotlin.svg?branch=master)](https://travis-ci.com/personnummer/kotlin)
+Status](https://travis-ci.org/personnummer/kotlin.svg?branch=master)](https://travis-ci.org/personnummer/kotlin)
 
 Validate Swedish social security numbers with
 [Kotlin](https://kotlinlang.org/). Heavily inspired by the [Java
