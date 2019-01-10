@@ -29,3 +29,7 @@ More examples in the
 
 This code is linted with [ktlint](https://github.com/shyiko/ktlint). See
 `ktlint` documentation for details.
+
+## License
+
+MIT
