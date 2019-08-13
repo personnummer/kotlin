@@ -77,11 +77,11 @@ class Personnummer {
             sum += temp
         }
 
-        if (sum != 0) {
-            sum = 10 - (sum % 10)
-        }
+        val controlNumber = 10 - sum % 10
 
-        return sum
+        if (controlNumber == 10) return 0
+
+        return controlNumber
     }
 
     /**
