@@ -8,10 +8,14 @@ jdk:
   - openjdk11
   - oraclejdk11
   - openjdk12
-
+git:
+  depth: 3
 before_install:
   - chmod +x gradlew
   - chmod +x gradle/wrapper/gradle-wrapper.jar
-
 script:
   - ./gradlew ktlintCheck test build
+
+cache:
+  directories:
+    - $HOME/.gradle
