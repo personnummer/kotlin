@@ -22,6 +22,8 @@ class PersonnummerTest {
         assertTrue { pnr.valid(191304012931L) }
         assertTrue { pnr.valid(196408233234L) }
         assertTrue { pnr.valid("101010-1010") }
+        assertTrue { personnummer.Personnummer.valid("101010-1010") }
+        assertTrue { personnummer.Personnummer.valid(196408233234L) }
     }
 
     @Test

@@ -14,11 +14,9 @@ you!
 import personnummer.Personnummer
 
 fun main(args: Array<String>) {
-    val pnr = Personnummer()
-
-    pnr.valid(6403273813L)      // => true
-    pnr.valid("19130401+2931")  // => true
-    pnr.valid("19900101-0017")  // => true
+    Personnummer.valid(6403273813L)      // => true
+    Personnummer.valid("19130401+2931")  // => true
+    Personnummer.valid("19900101-0017")  // => true
 }
 ```
 

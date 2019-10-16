@@ -14,6 +14,22 @@ class Personnummer {
     companion object {
         val PNR_REGEX = "^(\\d{2})?(\\d{2})(\\d{2})(\\d{2})([-|+]?)?(\\d{3})(\\d?)$".toRegex()
         val ASCII_REDUCE = 48
+
+        /**
+         * Validates if a given string is a valid Swedish social security number.
+         * @return true or false.
+         */
+        fun valid(pnr: String): Boolean {
+            return Personnummer().valid(pnr)
+        }
+
+        /**
+         * Validates if a given long value is a valid Swedish social security number.
+         * @return true or false.
+         */
+        fun valid(pnr: Long): Boolean {
+            return valid("$pnr")
+        }
     }
 
     /**
