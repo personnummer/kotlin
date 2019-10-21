@@ -17,6 +17,9 @@ class Personnummer {
 
         /**
          * Validates if a given string is a valid Swedish social security number.
+         *
+         * @JvmStatic
+         *
          * @return true or false.
          */
         fun valid(pnr: String): Boolean {
@@ -25,6 +28,9 @@ class Personnummer {
 
         /**
          * Validates if a given long value is a valid Swedish social security number.
+         *
+         * @JvmStatic
+         *
          * @return true or false.
          */
         fun valid(pnr: Long): Boolean {
