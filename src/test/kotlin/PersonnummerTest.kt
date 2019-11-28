@@ -9,33 +9,20 @@ class PersonnummerTest {
 
     @Test
     fun testWithControlDigit() {
-        assertTrue { pnr.valid("6403273813") }
-        assertTrue { pnr.valid("510818-9167") }
-        assertTrue { pnr.valid("19900101-0017") }
-        assertTrue { pnr.valid("19130401+2931") }
-        assertTrue { pnr.valid("196408233234") }
-        assertTrue { pnr.valid("0001010107") }
-        assertTrue { pnr.valid("000101-0107") }
-        assertTrue { pnr.valid(6403273813L) }
-        assertTrue { pnr.valid(5108189167L) }
-        assertTrue { pnr.valid(199001010017L) }
-        assertTrue { pnr.valid(191304012931L) }
-        assertTrue { pnr.valid(196408233234L) }
-        assertTrue { pnr.valid("101010-1010") }
-        assertTrue { personnummer.Personnummer.valid("101010-1010") }
-        assertTrue { personnummer.Personnummer.valid(196408233234L) }
+        assertTrue { pnr.valid(8507099805L) }
+        assertTrue { pnr.valid("198507099805") }
+        assertTrue { pnr.valid("198507099813") }
+        assertTrue { pnr.valid("850709-9813") }
+        assertTrue { pnr.valid("196411139808") }
+        assertTrue { personnummer.Personnummer.valid("198507099805") }
+        assertTrue { personnummer.Personnummer.valid(8507099805L) }
     }
 
     @Test
     fun testWithoutControlDigit() {
-        assertFalse { pnr.valid(640327381L) }
-        assertFalse { pnr.valid(510818916L) }
-        assertFalse { pnr.valid(19900101001L) }
-        assertFalse { pnr.valid(100101001L) }
-        assertFalse { pnr.valid("640327-381") }
-        assertFalse { pnr.valid("510818-916") }
-        assertFalse { pnr.valid("19900101-001") }
-        assertFalse { pnr.valid("100101+001") }
+        assertFalse { pnr.valid("19850709980") }
+        assertFalse { pnr.valid("19850709981") }
+        assertFalse { pnr.valid("19641113980") }
     }
 
     @Test
@@ -48,17 +35,14 @@ class PersonnummerTest {
 
     @Test
     fun testCoordinationNumbers() {
-        assertTrue { pnr.valid("701063-2391") }
-        assertTrue { pnr.valid("640883-3231") }
-        assertTrue { pnr.valid(7010632391L) }
-        assertTrue { pnr.valid(6408833231L) }
+        assertTrue { pnr.valid("198507699802") }
+        assertTrue { pnr.valid("850769-9802") }
+        assertTrue { pnr.valid("198507699810") }
+        assertTrue { pnr.valid("850769-9810") }
     }
 
     @Test
     fun testWithBadCoordinationNumbers() {
-        assertFalse { pnr.valid(9001610017L) }
-        assertFalse { pnr.valid(6408933231L) }
-        assertFalse { pnr.valid("900161-0017") }
-        assertFalse { pnr.valid("640893-3231") }
+        assertFalse { pnr.valid("198567099805") }
     }
 }
