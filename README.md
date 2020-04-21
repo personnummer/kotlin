@@ -3,7 +3,7 @@
 [![Build
 Status](https://travis-ci.org/personnummer/kotlin.svg?branch=master)](https://travis-ci.org/personnummer/kotlin)
 
-Validate Swedish social security numbers with
+Validate Swedish personal identity numbers with
 [Kotlin](https://kotlinlang.org/). Heavily inspired by the [Java
 implementation](https://github.com/personnummer/java) by @Johannestegner, thank
 you!

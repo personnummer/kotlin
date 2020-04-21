@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 
 /**
- * Class used to validate Swedish social security numbers.
+ * Class used to validate Swedish personal identity numbers.
  *
  * @author Simon Sawert
  */
@@ -16,7 +16,7 @@ class Personnummer {
         val ASCII_REDUCE = 48
 
         /**
-         * Validates if a given string is a valid Swedish social security number.
+         * Validates if a given string is a valid Swedish personal identity number.
          *
          * @JvmStatic
          *
@@ -27,7 +27,7 @@ class Personnummer {
         }
 
         /**
-         * Validates if a given long value is a valid Swedish social security number.
+         * Validates if a given long value is a valid Swedish personal identity number.
          *
          * @JvmStatic
          *
@@ -39,7 +39,7 @@ class Personnummer {
     }
 
     /**
-     * Validates if a given string is a valid Swedish social security number.
+     * Validates if a given string is a valid Swedish personal identity number.
      * @return true or false.
      */
     fun valid(pnr: String): Boolean {
@@ -70,7 +70,7 @@ class Personnummer {
     }
 
     /**
-     * Validates if a given long value is a valid Swedish social security number.
+     * Validates if a given long value is a valid Swedish personal identity number.
      * @return true or false.
      */
     fun valid(pnr: Long): Boolean {
