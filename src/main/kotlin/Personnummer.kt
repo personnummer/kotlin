@@ -12,7 +12,7 @@ import java.time.format.DateTimeParseException
 
 class Personnummer {
     companion object {
-        val PNR_REGEX = "^(\\d{2})?(\\d{2})(\\d{2})(\\d{2})([-|+]?)?(\\d{3})(\\d?)$".toRegex()
+        val PNR_REGEX = "^(\\d{2})?(\\d{2})(\\d{2})(\\d{2})([-|+]?)?((?!000)\\d{3})(\\d?)$".toRegex()
         val ASCII_REDUCE = 48
 
         /**
