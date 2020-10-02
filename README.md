@@ -1,7 +1,6 @@
 # Personnummer
 
-[![Build
-Status](https://travis-ci.org/personnummer/kotlin.svg?branch=master)](https://travis-ci.org/personnummer/kotlin)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/personnummer/kotlin/Test)](https://github.com/personnummer/kotlin/actions)
 
 Validate Swedish personal identity numbers with
 [Kotlin](https://kotlinlang.org/). Heavily inspired by the [Java
