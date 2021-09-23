@@ -7,7 +7,7 @@
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin on the JVM.
     id("org.jetbrains.kotlin.jvm").version("1.3.20")
-    id("org.jlleitschuh.gradle.ktlint").version("6.3.1")
+    id("org.jlleitschuh.gradle.ktlint").version("10.2.0")
 }
 
 repositories {
