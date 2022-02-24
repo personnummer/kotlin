@@ -65,7 +65,7 @@ class Personnummer {
         return (luhnValue == control) && validDate(year, month, day)
     }
 
-    private fun parseYear(year : String) : String = if (year.length == 4) year.substring(2) else year
+    private fun parseYear(year: String): String = if (year.length == 4) year.substring(2) else year
 
     /**
      * Validates if a given long value is a valid Swedish personal identity number.
