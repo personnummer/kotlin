@@ -1,0 +1,4 @@
+name: "Kotlin"
+maintainer: "@johannestegner"
+spec: 1
+workflow: "test.yml"
