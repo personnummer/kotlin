@@ -1,6 +1,6 @@
 # Personnummer
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/personnummer/kotlin/Test)](https://github.com/personnummer/kotlin/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/personnummer/kotlin/test.yml?branch=master)](https://github.com/personnummer/kotlin/actions)
 
 Validate Swedish personal identity numbers with
 [Kotlin](https://kotlinlang.org/). Heavily inspired by the [Java
