@@ -1,7 +1,7 @@
 plugins {
     kotlin("jvm") version "2.3.0"
     kotlin("plugin.serialization") version "2.3.0"
-    id("org.jlleitschuh.gradle.ktlint").version("11.6.1")
+    id("org.jlleitschuh.gradle.ktlint").version("14.0.1")
 }
 
 repositories {
