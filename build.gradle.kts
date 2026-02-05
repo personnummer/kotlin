@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.3.0"
+    kotlin("jvm") version "2.3.10"
     kotlin("plugin.serialization") version "2.3.10"
     id("org.jlleitschuh.gradle.ktlint").version("11.6.1")
 }
