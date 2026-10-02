@@ -26,6 +26,10 @@ More examples in the
 This code is linted with [ktlint](https://github.com/shyiko/ktlint). See
 `ktlint` documentation for details.
 
+## In memoriam
+
+Fredrik "Frozzare" Forsmo (1991-2026) was the initiator, co-founder and a core contributor of the personnummer project. This library carries his work. He is missed.
+
 ## License
 
 MIT
